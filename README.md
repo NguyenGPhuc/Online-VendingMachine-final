@@ -15,7 +15,7 @@ as if the user had bought everything. A receipt with tax will be printed on scre
 ## Role:
 I was responsible for majority of the API implementation and script file. That include getting infomation from Pixelbay API, then send the data to
 locations that needed on the site. Wrote script file that act as the selection screen and cart page. Helped with building database, inserting new 
-infomation and extracting it.
+infomation and extracting from it.
 
 
 ## LINK:
