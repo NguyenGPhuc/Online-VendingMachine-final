@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<%- include("partials/headerInfo") %>
+<body>
+
+	<h1 class="display-1"> Login Page </h1>
+
+	<form method="POST" action="/login">
+		Username:
+		<input type="text" name="username">
+		<br>
+    <div id="passShift">
+		Password:
+		<input type="password" name="pwd">
+		<br><br>
+		<button class="btn btn-primary">Login</button>
+    </div>
+	</form>
+
+	<% if(typeof error != "undefined"){%>
+		<%= error %>
+	<%}%>
+ 
+<br>
+  Don't have an account?  <a href="signup" class="link-primary">Sign Up Here</a>
+
+<%- include("partials/footerInfo") %>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("partials/headerInfo") %>
+
+<body>
+
+  <%- include("partials/navBar") %>
+  <hr>
+  
+  <h2> Welcome to our Vending Machine! Click "order" on the Navigation Bar to get Started! </h2>
+
+  <br>
+
+	<h2>About Us:</h2>
+
+	<div class="HomePageImgs">
+			<div>
+				<figure>
+					<img class="images rounded" width="150" alt="Picture of Gabrielle Lake" src="https://files.catbox.moe/u49ean.jpg">
+					<figcaption>
+					  <strong>Gabrielle Lake</strong>
+						<br>
+						Frontend Engineer
+					</figcaption>
+				</figure>
+				
+				<figure>
+					<img class="images rounded" alt="Picture of Erik Morris" width="150" src="https://files.catbox.moe/5pg8pi.jpg">
+					<figcaption>
+					  <strong>Erik Morris</strong>
+						<br>
+						Backend Engineer
+					</figcaption>
+				</figure>
+			</div>
+
+			<div>
+				<figure>
+					<img class="images rounded" alt="Picture of Ryan Pheang" width="150" src="https://files.catbox.moe/z0rcp0.jpg">
+					<figcaption>
+					  <strong>Ryan Pheang</strong>
+						<br>
+						Backend Engineer
+				  </figcaption>
+				</figure>
+				
+			<!-- </div> -->
+
+			<!-- <div> -->
+				<figure>
+					<img class="images rounded" alt="Picture of Paul Nguyen" width="150" height="150"
+					src="https://files.catbox.moe/yvjzx6.jpeg">
+					<figcaption>
+					  <strong>Paul Nguyen</strong>
+						<br>
+						Backend Engineer
+				  </figcaption>
+				</figure>
+				
+			</div>
+    </div>
+
+	<hr>
+
+	<table class="table table-bordered">
+      <thead class="thead-dark">
+				<tr class="table-light">
+					<th class="col-md-3">Programming Language</th>
+					<th class="col-md-3">Years Experience</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr scope="row" class="table-light">
+					<td>Java</td>
+					<td>1.5</td>
+				</tr>
+
+				<tr scope="row" class="table-light">
+					<td>C++</td>
+					<td>1</td>
+				</tr>
+
+				<tr scope="row" class="table-light">
+					<td>Python</td>
+					<td>1.5</td>
+				</tr>
+
+				<tr scope="row" class="table-light">
+					<td>HTML, CSS, JS</td>
+					<td>1</td>
+				</tr>
+			</tbody>
+
+    </table>
+
+	<hr>
+
+		<h4>Our Common Hobbies:</h4>
+		<ul class="list-group">
+				<li class="list-group-item">Movies</li>
+				<li class="list-group-item">Books</li>
+				<li class="list-group-item">HTML</li>
+				<li class="list-group-item">CS</li>
+		</ul>
+	
+	<hr>
+
+  <button class="btn btn-primary" id="googleFormButton">Want Us to Add Something New to Our Vending Machine?</button>
+  <br>
+  <span id="googleForm">
+	  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczKGhlw3Y7xZh5BoF1lw2n_MtVU4Po-I5-zCgkvcprp_Tz4g/viewform?embedded=true" width="640" height="700"></iframe>
+  </span>
+
+<%- include("partials/footerInfo") %>
+</body

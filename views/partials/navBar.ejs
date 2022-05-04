@@ -1,0 +1,58 @@
+<ul class="nav">
+  <li class="nav-item">
+		<a href="../home" class="nav-link">Home</a>
+	</li>
+  <li class="nav-item">
+		<a href="../order" class="nav-link">Order</a>
+	</li>
+  <li class="nav-item">
+		<a href="../profile" class="nav-link">Profile</a>
+	</li>
+	<li class="nav-item">
+		<a href="../logout" class="nav-link">Logout</a>
+	</li>
+</ul>
+
+<br>
+
+<button type="button" id="cart" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
+  View Cart
+</button>
+
+  <div id="cartModal" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cart Info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <span id="customerName"></span>
+        <br>
+        <span id="cartContents"> </span>
+        <br>
+        <span id="subtotal"></span>
+        <span id="empty"></span>
+        <br>
+        <span id="thankU"></span>
+        <span id="tax">Tax: 10%</span>
+        <br>
+        <span id="total"> </span>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="cartDelete" class="btn btn-success">Buy Now</button>
+
+        <button type="button" id="clearCart" class="btn btn-primary">Clear Cart</button>
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("partials/headerInfo") %>
+
+<body>
+
+  <%- include("partials/navBar") %>
+  <hr>
+
+  <form action="/order" method="POST">
+    Food Category:
+    <select name="category" id="category_select">
+      <% for(let i = 0; i < categories.length-1; i++){%>
+        <option value="<%=categories[i].category%>"><%= categories[i].category %> 
+        </option>
+    <% } %>
+    </select>
+
+  <br><br>
+
+	<input type="hidden" name="foodPicture" value="<%=items[0].title%>">
+
+  <div id="foodPic"></div>
+
+  <br>
+
+  <div id="category_result">
+    <u>Options & Customizations:</u> <br><br>
+    <b>Item Choice:</b><br>
+	
+      <div class="Snacks selected" id="snackOptions">
+
+        
+        <t><input type="radio" value="1" id="fries" name="snacks"><for="French_Fries"> French Fries  $<%= items[0].price.toFixed(2) %>
+        <br>
+
+        <t><input type="radio" value="15" id="chips" name="snacks"><for="Chips"> Potato Chips  $<%= items[14].price.toFixed(2) %> 
+
+        <br><br>
+        <div class="1 box" id="topingFry"></div>
+        <div class="1 box" id="friesTop"></div>
+        <br>
+      </div>
+    
+
+    <div class="Meals selected" id="mealOptions">
+      <t><input type="radio" value="2" id="pizza" name="meals"><for="Pizza">Pizza $<%= items[1].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" value="3" id="hamburger" name="meals"><for="Hamburger">Hamburger $<%= items[2].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" value="8" id="nuggets" name="meals"><for="Nuggets">Chicken Nuggets $<%= items[7].price.toFixed(2) %></label>
+
+      <br><br>
+      <div class="2 box" id="topingPizza"></div>
+      <div class="2 box" id="pizzaTop"></div>
+      <br>
+
+      <div class="3 box" id="topingBurger"></div>
+      <div class="3 box" id="burgerTop"></div>
+      <br>
+
+      <div class="8 box" id="topingNugget"></div>
+      <div class="8 box" id="nuggetTop"></div>
+      <br>
+    </div>
+      
+
+    <div class="Drinks selected" id="drinkOptions">
+      <t><input type="radio" id="water" name="drinks" value="13"><for="Smart_Water">Smart Water $<%= items[12].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" id="sprite" name="drinks" value="4"><for="Sprite">Sprite $<%= items[3].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" id="dr_pepper" name="drinks" value="5"><for="Dr.Pepper">Dr.Pepper $<%= items[4].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" id="cola" name="drinks" value="9"><for="Coke_Cola">Coke-Cola $<%= items[8].price.toFixed(2) %></label>
+      <br><br><br>
+    </div>
+
+    <div class="Frozen selected" id="iceOptions">
+      <t><input type="radio" id="vanilla_ice_cream" name="ices" value="6"><for="	Vanilla_Ice_Cream">Vanilla Ice Cream $<%= items[5].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" id="chocolate_ice_cream" name="ices" value="7"><for="Chocolate_Ice_Cream">Chocolate Ice Cream $<%= items[6].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" id="strawberry_ice_cream" name="ices" value="10"><for="strawberry_ice_cream">Strawberry Ice Cream $<%= items[9].price.toFixed(2) %></label>
+      <br><br><br>
+    </div>
+
+    <div class="Candy selected" id="candy">
+      <t><input type="radio" id="twix" name="candies" value="11"><for="Twix">Twix Bar $<%= items[10].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" id="kitkat" name="candies" value="12"><for="Kitkat">KitKat Bar $<%= items[11].price.toFixed(2) %></label>
+      <br>
+
+      <t><input type="radio" id="skittles" name="candies" value="14"><for="Skittles">Skittles $<%= items[13].price.toFixed(2) %></label>
+      <br><br><br>
+    </div>
+
+   </div>
+
+    <button class="btn btn-primary">Add to Cart</button>
+  </form>
+</body>
+
+<%- include("partials/footerInfo") %>

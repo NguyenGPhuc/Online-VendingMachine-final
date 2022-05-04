@@ -1,0 +1,113 @@
+body{
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(255, 109, 109);
+}
+
+a {
+  text-align: center;
+}
+
+
+p{
+  font-size: larger;
+	background-color: #dddddd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(129, 129, 129);
+  text-align: center;
+}
+
+li {
+  float: left;
+	border-right: 1px solid #bbb;
+  text-align: center;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link{
+	color:white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#passShift{
+  margin-left: 5px;
+}
+
+h1{
+  /* color: rgb(0, 110, 255); */
+  font-size: 40px;
+}
+
+.nav{
+  display: inline-block;
+  list-style-type: none;
+}
+
+
+#foodImg {
+  width: 256px;
+  /* height: 256px;  */
+	border: black 5px; 
+  border-width: 5px;
+  border-color:black;
+  border-radius: 50%;
+}
+
+label{
+	display:inline-block;
+	width:200px;
+	margin-right:3px;
+	text-align:right;
+}
+
+fieldset{
+	border:none;
+	width:500px;
+	margin:0px auto;
+}
+
+
+.HomePageImgs{
+	/*display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content:center;
+}
+
+.images{
+  border: 4px black solid;
+  width: 150px; 
+  height: 150px;
+}
+
+/* For roundness control */
+.rounded{
+  border-radius: 35px;
+}
+
+footer{
+	font-size: 12px; 
+}
