@@ -1,7 +1,4 @@
-# RuntimeTerrorVendingMachine-final
-Online shoping machine (food)
-
-##Fancy Vending Machine
+#Fancy Vending Machine
 Final project for CST-336: Internet Programming.
 
 ##TEAM: 
