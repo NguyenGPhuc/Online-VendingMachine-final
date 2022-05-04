@@ -1,7 +1,7 @@
-#Fancy Vending Machine
+# Fancy Vending Machine
 Final project for CST-336: Internet Programming.
 
-##TEAM: 
+## TEAM: 
 Paul Nguyen, Gabrielle Lake, Ryan Pheang, Erik Morris.
 
 ## Description:
