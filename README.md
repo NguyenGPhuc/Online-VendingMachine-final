@@ -9,8 +9,8 @@ Paul Nguyen, Gabrielle Lake, Ryan Pheang, Erik Morris.
 ## Description:
 A fully functioning website that simulate the process of ordering food online. It allows user with an accound to select from a variety choices, ranging from snacks to a full meal.
 New account can be created clicking the "Sign up here". Username and password would be stored in a database, MySQL. After logging in, user can 
-select items from the "Order" tab. Pictures are loaded from Pixabay API as user select each item. Cart show items that user are planning to buy,
-items can be added or taken out at anytime. Pay button will reset the cart, as if the user had bought everything. A receipt with tax will be printed.
+select items from the "Order" tab. Pictures are loaded from Pixabay API as user select each item. Cart show items that user added, pay button will reset the cart, 
+as if the user had bought everything. A receipt with tax will be printed on screen.
 
 ## Role:
 I was responsible for majority of the API implementation and script file. That include getting infomation from Pixelbay API, then send the data to
