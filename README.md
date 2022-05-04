@@ -18,7 +18,8 @@ locations that needed on the site. Wrote script file that act as the selection s
 
 
 ## LINK:
-https://replit.com/@PualNguyen/RuntimeTerrorVendingMachine-fina
+https://runtimeterrorvendingmachine-final.pualnguyen.repl.co
+
 
 ## Instruction
 1. Make an account by clicking "Sign up here"
