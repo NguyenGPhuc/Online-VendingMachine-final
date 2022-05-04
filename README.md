@@ -14,7 +14,8 @@ items can be added or taken out at anytime. Pay button will reset the cart, as i
 
 ## Role:
 I was responsible for majority of the API implementation and script file. That include getting infomation from Pixelbay API, then send the data to
-locations that needed on the site. Wrote script file that act as the selection screen and cart page.
+locations that needed on the site. Wrote script file that act as the selection screen and cart page. Helped with building database, inserting new 
+infomation and extracting it.
 
 
 ## LINK:
